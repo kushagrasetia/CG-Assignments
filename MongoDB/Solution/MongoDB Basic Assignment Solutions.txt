@@ -44,7 +44,6 @@ Update Documents…
 
 
 Text Search…
- db.movies.createIndex({synopsis: “text”});
 1.db.movies.find({$synopsis:{$regex: “Bilbo”}}).pretty();
 2.db.movies.find({synopsis:{$regex: “Gandalf”}}).pretty();
 3. db.movies.find({$and:[{synopsis:{$regex: “Bilbo”}},{synopsis:{$not:/Gandalf/}}]}).pretty();
