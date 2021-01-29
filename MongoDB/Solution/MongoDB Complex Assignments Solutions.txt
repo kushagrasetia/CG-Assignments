@@ -31,4 +31,4 @@
 29.db.addresses.find({"address.coord":{$type:1}}).pretty();
 30.db.addresses.find({"grades.score":{$mod:[7,0]}},{restaurant_id:1,name:1,grades:1}).pretty();
 31.db.addresses.find({name:/.*mon.*/},{name:1,borough:1,"address.coord":1,cuisine:1}).pretty();
-32.db.addresses.find({name:/.*Mad.*/},{name:1,borough:1,"address.coord":1,cuisine:1}).pretty();
+32.db.addresses.find({name:/^Mad/},{name:1,borough:1,"address.coord":1,cuisine:1}).pretty();
