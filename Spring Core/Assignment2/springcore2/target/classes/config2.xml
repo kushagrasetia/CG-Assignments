@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> 
+
+
+<bean name="listQuestion" class="com.ks.springcore2.ListQuestion">
+		<property name="questionId" value="01"/>
+		<property name="question" value="What is your name?"/>
+		<property name="answers">
+			<list>
+				<value>Ram</value>
+				<value>Shyam</value>
+				<value>Sita</value>
+			</list>
+		</property>
+</bean>
+<bean name="setQuestion" class="com.ks.springcore2.SetQuestion">
+		<property name="questionId" value="02"/>
+		<property name="question" value="what are your hobbies?"/>
+		<property name="answers">
+			<set>
+				<value>Dancing</value>
+				<value>Singing</value>
+				<value>Listening Music</value>
+			</set>
+		</property>
+</bean>
+ <bean name="mapQuestion" class="com.ks.springcore2.MapQuestion">
+ 		<property name="questionId" value="03"/>
+		<property name="question" value="What different type of pets do you have?"/>
+		<property name="answers">
+			<map>
+				<entry key="1" value="Dog"/>
+				<entry key="2" value="Fish"/>
+				<entry key="3" value="Cat"/>
+			</map>
+		</property>
+ </bean>
+</beans>
