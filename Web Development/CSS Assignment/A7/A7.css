@@ -1,0 +1,12 @@
+span
+{
+    font-weight:bold;
+}
+p
+{
+    border-style: solid;
+    border-color: red;
+    outline-style: dotted;
+    outline-color:lawngreen;
+    font-size: 40px;
+}

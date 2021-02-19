@@ -1,0 +1,11 @@
+body{
+    background-color: paleturquoise;
+}
+a:visited
+{
+    color: red;
+}
+a:link
+{
+    color: blue;
+}
