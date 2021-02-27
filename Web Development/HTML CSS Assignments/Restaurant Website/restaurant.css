@@ -1,0 +1,255 @@
+body,
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+#name {
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 630px;
+    margin-bottom: -35px;
+}
+
+#msg {
+    display: inline-block;
+    background-color: crimson;
+    padding-left: 30px;
+    padding-right: 28px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.options {
+    margin-left: 20px;
+    display: inline-block;
+    background-color: lightgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#menu-section {
+    background-image: url("banner7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#menu img {
+    height: 250px;
+    width: 250;
+    margin-left: 30px;
+    margin-right: 20px;
+    border: black solid;
+}
+
+#menu h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.dish-list {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-right: 170px;
+}
+
+#shakes,
+#salads,
+#burgers p {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#shakes img {
+    height: 300px;
+    width: 500px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: black solid;
+}
+
+#shakes span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 16%;
+}
+
+#salads img {
+    height: 300px;
+    width: 500px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: black solid;
+}
+
+#salads span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 18%;
+}
+
+#burgers img {
+    height: 300px;
+    width: 500px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: black solid;
+}
+
+#burgers span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+#booking-section {
+    background-image: url("banner5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: -30px;
+}
+
+#booking-header {
+    text-align: center;
+    margin-top: 10px;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.reserve-form {
+    padding: 30px 2% 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background: rgba(35, 245, 130, 0.8);
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    color: brown;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-group input,
+select {
+    border-radius: 10px;
+    border-color: brown;
+    height: 20px;
+}
+
+#btn button {
+    margin-left: 30%;
+    padding: 4px;
+    font-size: 25px;
+    border: black solid;
+    border-radius: 20px;
+    background-color: lightcoral;
+}
+
+#about-section {
+    min-height: 600px;
+    background-color: lightcyan;
+    margin-bottom: -30px;
+}
+
+#about-heading {
+    padding-top: 90px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about-text {
+    float: left;
+    width: 500px;
+    text-align: justify;
+    margin-left: 25px;
+    font-size: 25px;
+    color: maroon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about-section img {
+    margin-right: 4%;
+    float: right;
+    width: 650px;
+    height: 350px;
+    border: maroon solid;
+}
+
+#contact-section {
+    min-height: 550px;
+    background-color: lightyellow;
+}
+
+#headline {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#msg-us {
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+    border: lightcoral solid;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+#msg-us input,
+textarea {
+    width: 400px;
+}
+
+#msg-us button {
+    background-color: lightsalmon;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#details {
+    float: right;
+    width: 40%;
+    border: lightgreen solid;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: 2%;
+}
+
+footer {
+    text-align: center;
+    background-color: lightsalmon;
+    padding: 5px;
+    font-size: 20px;
+}
