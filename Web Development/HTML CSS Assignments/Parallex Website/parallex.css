@@ -1,0 +1,112 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    background-color: lightcyan;
+}
+
+#wonders,
+#wonder1,
+#wonder2,
+#wonder3,
+#wonder4,
+#wonder5,
+#wonder6,
+#wonder7 {
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wonders p {
+    display: inline-block;
+    background-color: ivory;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+#wonders {
+    background-image: url("combine.jpg");
+    min-height: 100%;
+}
+
+#wonder1 {
+    background-image: url("Taj-Mahal.jpg");
+    min-height: 450px;
+}
+
+#wonder2 {
+    background-image: url("christ.jpeg");
+    min-height: 450px;
+}
+
+#wonder3 {
+    background-image: url("Chichen-Itza-at-night.jpg");
+    min-height: 450px;
+}
+
+#wonder4 {
+    background-image: url("petra.jpeg");
+    min-height: 450px;
+}
+
+#wonder5 {
+    background-image: url("Great-Wall-of-China.jpg");
+    min-height: 450px;
+}
+
+#wonder6 {
+    background-image: url("Machu-Picchu-around-sunset.jpg");
+    min-height: 450px;
+}
+
+#wonder7 {
+    background-image: url("View-of-the-Colosseum.jpg");
+    min-height: 450px;
+}
+
+#sec {
+    background-color: lightskyblue;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.name {
+    display: inline-block;
+    text-align: center;
+    background-color: lightyellow;
+    margin-left: 30%;
+    margin-top: 30%;
+    opacity: 0.9;
+}
+
+@media(max-width:568px) {
+    #wonders,
+    #wonder1,
+    #wonder2,
+    #wonder3,
+    #wonder4,
+    #wonder5,
+    #wonder6,
+    #wonder7 {
+        background-attachment: scroll;
+    }
+}
+
+#footer {
+    padding: 5px;
+    background-color: bisque;
+    text-align: center;
+}

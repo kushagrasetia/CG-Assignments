@@ -1,0 +1,222 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+#start {
+    background: url("banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 640px;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+#start p {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: slateblue;
+    font-size: 50px;
+    margin-top: 20%;
+    border: black solid;
+}
+
+#start a {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 50px;
+    background-color: darkcyan;
+    text-decoration: none;
+    color: black;
+    border: black solid;
+}
+
+#start a:hover {
+    background-color: salmon;
+}
+
+#section1 h2 {
+    font-size: 60px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#section1 {
+    background: url("section1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#alchemist {
+    width: 300px;
+    height: 450px;
+    margin-left: 70px;
+    border: black solid;
+}
+
+#atomic {
+    width: 300px;
+    height: 450px;
+    margin-left: 150px;
+    border: black solid;
+}
+
+#rich {
+    width: 300px;
+    height: 450px;
+    margin-left: 150px;
+    border: black solid;
+}
+
+#monk {
+    width: 300px;
+    height: 450px;
+    margin-left: 70px;
+    margin-top: 100px;
+    border: black solid;
+}
+
+#ikigai {
+    width: 300px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: black solid;
+}
+
+#ferrari {
+    width: 300px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: black solid;
+}
+
+#footer {
+    padding: 5px;
+    background-color: peachpuff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer p {
+    font-size: 18px;
+}
+
+@media only screen and (max-width:450px) {
+    #start p {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 45%;
+        font-size: 27px;
+    }
+    #start a {
+        font-size: 24px;
+    }
+    #section1 h2 {
+        font-size: 35px;
+    }
+    #alchemist {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        border: black solid;
+    }
+    #atomic {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        border: black solid;
+    }
+    #rich {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        border: black solid;
+    }
+    #monk {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        margin-top: auto;
+        border: black solid;
+    }
+    #ikigai {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        margin-top: auto;
+        border: black solid;
+    }
+    #ferrari {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        margin-top: auto;
+        border: black solid;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #start {
+        min-height: 750px;
+        text-align: center;
+        margin-bottom: -50px;
+    }
+    #start p {
+        margin-left: 40px;
+        margin-right: 50px;
+        margin-top: 40%;
+        font-size: 35px;
+    }
+    #start a {
+        font-size: 30px;
+    }
+    #section1 h2 {
+        font-size: 35px;
+    }
+    #alchemist {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+    }
+    #atomic {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+    }
+    #rich {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+    }
+    #monk {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    #ikigai {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    #ferrari {
+        width: 200px;
+        height: 330px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}
+
+*/
