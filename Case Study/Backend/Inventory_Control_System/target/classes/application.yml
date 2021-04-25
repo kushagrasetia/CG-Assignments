@@ -1,0 +1,10 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: Inventory_Control_System
+  data:
+    mongodb:
+      database: HotelManagementSystem
+      host: localhost
+      port: 27017
