@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: Department_Details
+  data:
+    mongodb:
+      database: HotelManagementSystem
+      host: localhost
+      port: 27017
